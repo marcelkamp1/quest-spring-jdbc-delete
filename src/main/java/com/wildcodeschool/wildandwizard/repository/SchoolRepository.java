@@ -1,3 +1,18 @@
+/*
+
+mysql> select * from school;
++----+----------------------------------------------+----------+----------------+
+| id | name                                         | capacity | country        |
++----+----------------------------------------------+----------+----------------+
+|  1 | Castelobruxo                                 |      380 | Brazil         |
+|  2 | Durmstrang Institute                         |      570 | Sweden         |
+|  3 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
+|  4 | Ilvermorny School of Witchcraft and Wizardry |      300 | USA            |
+|  5 | Koldovstoretz                                |      125 | Russia         |
++----+----------------------------------------------+----------+----------------+
+
+*/
+
 package com.wildcodeschool.wildandwizard.repository;
 
 import java.sql.Connection;
